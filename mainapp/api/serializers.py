@@ -6,4 +6,4 @@ from ..models import *
 class NoteModelSerializer(serializers.ModelSerializer):
     class Meta:
         model = Note
-        exclude = ['id', ]
+        fields = '__all__'

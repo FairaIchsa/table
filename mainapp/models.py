@@ -3,6 +3,7 @@ from django.db import models
 
 class Note(models.Model):
     class Meta:
+        ordering = ['id']
         verbose_name = 'Note'
         verbose_name_plural = 'Table'
 
